@@ -4,5 +4,5 @@ toys = int(input("Введите количество коробок игруш�
 total_books = books * 2
 total_stationery = stationery * 1.5
 total_toys = toys * 3
-total_size = total_books + total_stationery + total_toys
-print("Общий объём: " + str(total_size) + " м^3")
+total_size = str(total_books + total_stationery + total_toys)
+print("Общий объём: " + total_size + " м^3")
